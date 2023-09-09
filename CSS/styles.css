@@ -85,6 +85,7 @@ header .hero .hero_image img {
 
 footer {
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 #copyright {
   font-size: 10px;
