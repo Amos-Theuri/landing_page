@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1f2937;
+  background-color: #08336e;
 }
 
 header {
@@ -46,5 +46,39 @@ header .hero .hero_image img {
   width: 100%;
 }
 
-header .hero .hero_text {
+.products {
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+#assets {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#assets .prod_imgs {
+  height: 230px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+#assets .prod_imgs:hover {
+  cursor: pointer;
+}
+
+#assets .prod_imgs img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+#assets .prod_imgs img:hover {
+  scale: 110%;
+}
+
+.board {
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
 }
