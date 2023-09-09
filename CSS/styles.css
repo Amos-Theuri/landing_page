@@ -82,3 +82,10 @@ header .hero .hero_image img {
   text-align: center;
   padding-top: 20px;
 }
+
+footer {
+  text-align: center;
+}
+#copyright {
+  font-size: 10px;
+}
